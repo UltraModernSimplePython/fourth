@@ -8,7 +8,7 @@ on:
 
 jobs:
   tests-per-env:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     strategy:
       matrix:
         environment: [test, py310test, py311test]
